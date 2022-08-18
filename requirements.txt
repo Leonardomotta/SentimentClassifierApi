@@ -70,12 +70,6 @@ Jinja2==3.1.1
 joblib==1.1.0
 json5==0.9.6
 jsonschema==4.4.0
-jupyter-client==7.2.2
-jupyter-core==4.10.0
-jupyter-server==1.16.0
-jupyterlab==3.3.4
-jupyterlab-pygments==0.2.2
-jupyterlab-server==2.13.0
 kiwisolver==1.4.2
 langcodes==3.3.0
 lxml==4.8.0
@@ -147,7 +141,6 @@ SQLAlchemy==1.4.36
 srsly==2.4.3
 stack-data==0.2.0
 terminado==0.13.3
-textblob==0.17.1
 thinc==8.0.15
 threadpoolctl==3.1.0
 tinycss2==1.1.1
