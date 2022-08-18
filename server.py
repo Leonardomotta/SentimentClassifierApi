@@ -21,13 +21,7 @@ class Users(Resource):
         candidato = request.args.get('candidato')
         ano = request.args.get('ano')
         return jsonify(predict(candidato,ano))
-      
-# class Cad(Resource):
-#     def get(self):
-#         response = 
-#         return jsonify(predict(candidato,ano))
-
-        
+              
 
 class UserById(Resource):
     def delete(self, id):
@@ -42,8 +36,7 @@ class UserById(Resource):
 
 api.add_resource(Users, '/users') 
 api.add_resource(UserById, '/users/<id>') 
-#api.add_resource(Cad, '/cad') 
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
